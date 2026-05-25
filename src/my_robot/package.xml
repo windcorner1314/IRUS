@@ -59,6 +59,11 @@
   <exec_depend>rospy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
 
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <!-- 
+  exce_depend 以前对应的是 run_depend 现在非法
+  -->
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
