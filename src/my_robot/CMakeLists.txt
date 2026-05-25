@@ -67,6 +67,11 @@ add_message_files(
 #   Service2.srv
 # )
 
+add_service_files(
+  FILES
+  AddInts.srv
+)
+
 ## Generate actions in the 'action' folder
 # add_action_files(
 #   FILES
@@ -204,6 +209,8 @@ catkin_install_python(PROGRAMS
   scripts/listener_p.py
   scripts/person_talker.py
   scripts/person_listener.py
+  scripts/AddInts_Server_p.py
+  scripts/AddInts_Client_p.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
