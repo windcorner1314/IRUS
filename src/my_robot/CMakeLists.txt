@@ -211,6 +211,9 @@ catkin_install_python(PROGRAMS
   scripts/person_listener.py
   scripts/AddInts_Server_p.py
   scripts/AddInts_Client_p.py
+  scripts/turtle_spawn.py
+  scripts/turtle_tf_broadcaster.py
+  scripts/turtle_tf_listener.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
