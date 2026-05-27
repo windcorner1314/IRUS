@@ -217,6 +217,10 @@ catkin_install_python(PROGRAMS
   scripts/turtle_round.py
   scripts/turtle_coordinate.py
   scripts/turtle_generate.py
+  scripts/param_delete.py
+  scripts/param_get.py
+  scripts/param_set.py
+  scripts/turtle_background.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
