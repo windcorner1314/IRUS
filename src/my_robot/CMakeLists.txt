@@ -221,6 +221,8 @@ catkin_install_python(PROGRAMS
   scripts/param_get.py
   scripts/param_set.py
   scripts/turtle_background.py
+  scripts/use_tools.py
+  scripts/tools.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
