@@ -223,6 +223,11 @@ catkin_install_python(PROGRAMS
   scripts/turtle_background.py
   scripts/use_tools.py
   scripts/tools.py
+  scripts/static_transform_publisher.py
+  scripts/static_tf_listener.py
+  scripts/dynamic_tf_broadcaster.py
+  scripts/dynamic_tf_listener.py
+  scripts/multi_tf_listener.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
