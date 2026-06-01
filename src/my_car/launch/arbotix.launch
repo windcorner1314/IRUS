@@ -1,0 +1,16 @@
+<launch>
+
+    <param name="robot_description"
+           command="$(find xacro)/xacro $(find my_car)/xacro/my_base_camera_laser.xacro" />
+
+    <node pkg="arbotix_python"
+          type="arbotix_driver"
+          name="arbotix"
+          output="screen">
+
+        <rosparam file="$(find my_car)/config/hello.yaml"
+                  command="load" />
+
+    </node>
+
+</launch>
